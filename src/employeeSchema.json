@@ -1,0 +1,23 @@
+{
+  "type": "object",
+  "properties":
+  {
+    "name":
+    {
+      "type": "string"
+    },
+    "age":
+    {
+      "type": "integer"
+    },
+    "gender":
+    {
+      "type": "string",
+      "enum": ["M","F"]
+    },
+    "email":
+    {
+      "type": "string"
+    }
+  }
+}
